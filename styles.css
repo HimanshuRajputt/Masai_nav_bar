@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-nav{
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-right: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+    border-top: 0.1px solid black;
+    border-left: 0.1px solid black;
+    
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.left > img{
+    padding: 0.5rem;
+    height: 1.5rem;
+    width: 4rem;
+}
+.right{
+    
+    display: flex;
+    justify-content:space-between;
+    font-size: 0.8rem;
+    align-items: center;
+    width: 42rem;
+    
+}
+.refer{
+    color: rgb(9, 162, 223);
+    background-color: rgba(213, 243, 255, 0.671);
+    padding: 0.3rem;
+    width: 7rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+}
+
+.login{
+    border: 1.5px solid orange;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: white;
+    color: rgb(243, 171, 37);
+    font-weight: 550;
+}
+
+.right-div:hover , .refer:hover {
+    color: rgb(235, 78, 78); /* Change color on hover */
+}
